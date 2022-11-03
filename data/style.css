@@ -1,0 +1,65 @@
+h1,h2 {
+	margin: 0%;
+}
+
+h3 {
+	margin-top: 2rem;
+	margin-bottom: 0.3rem;
+}
+
+.tabel {
+	padding: 0.9rem;
+}
+
+body {
+	background: url("../image/bg blur.jpg");
+	background-size: cover;
+}
+
+.tbl-op {
+	width: 2rem;
+	padding: 0.3rem;
+}
+
+.tbl-op:hover {
+	cursor: pointer;
+	background: orange;
+}
+
+.hasil {
+	border-style: inset;
+	border-color: brown;
+	width: 20%;
+	background: white;
+	font-family: arial black;
+	color: purple;
+}
+
+.tombol-bawah {
+	margin-top: 3rem;
+	background: black;
+}
+
+.tmbl-bwh {
+	padding: 0.6rem;
+	width: 15%;
+	background: black;
+	color: yellow;
+	border-radius: 10px;
+}
+
+.tmbl-bwh:hover {
+	background: yellow;
+	color: black;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+	.hasil {
+		width: 75%;
+	}
+	
+	.tmbl-bwh {
+		width: 30%;
+	}
+}

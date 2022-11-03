@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="data/style.css">
+		<script src="data/data.js"></script>
+		<title> Kalkulator Sederhana </title>
+		<link rel="icon" href="image/calc.png">
+	</head>
+	<body>
+		<center>
+			<img src="image/calc.png" width="9%">
+			<h2> My Simple Apps </h2>
+			<h1> SIMPLE CALCULATOR </h1>
+			<hr>
+			<div class="tabel">
+				<table border="0" cellpadding="5" cellspacing="0">
+					<tr>
+						<td> <b> Angka Pertama </b> </td>
+						<td> : </td>
+						<td> <input type="number" id="angka1"> </td>
+					</tr>
+					<tr>
+						<td> <b> Angka Kedua </b> </td>
+						<td> : </td>
+						<td> <input type="number" id="angka2"> </td>
+					</tr>
+				</table>
+			</div>
+			<div class="operator">
+				<input type="submit" onclick="tambah()" value="+" class="tbl-op">
+				<input type="submit" onclick="kurang()" value="-" class="tbl-op">
+				<input type="submit" onclick="kali()" value="X" class="tbl-op">
+				<input type="submit" onclick="bagi()" value=":" class="tbl-op">
+				<input type="submit" onclick="pangkat()" value="^" class="tbl-op">
+				<input type="submit" onclick="hapus()" value="C" class="tbl-op">
+			</div>
+			<h3>Hasil:</h3>
+			<div class="hasil">
+			<p id="hasil"></p>
+		</div>
+		</center>
+	</body>
+	<br> <br>
+	<center>
+	<div class="tombol-bawah">
+		<input type="submit" onclick="developer()" value="Info Developer" class="tmbl-bwh">
+		<input type="submit" onclick="kantor()" value="Kantor Developer" class="tmbl-bwh">
+		<input type="submit" onclick="kontak()" value="Kontak Developer" class="tmbl-bwh">
+	</div>
+	</center>
+</html>
